@@ -49,7 +49,7 @@ const SwiperSlider = () => {
                   <h2 className="text-black  font-medium md:text-5xl text-3xl ">{slide.title}</h2>
                   <p className="text-lg mb-6 mt-5">{slide.description}</p>
                   <a href="tel:+998901234567">
-                    <button className="bg-black hover:bg-amber-100 px-6 py-3 rounded-lg shadow-lg text-white font-semibold text-lg hover:scale-105 transition-transform">
+                    <button className="bg-black md:w-[30%] hover:bg-amber-100 px-6 py-3 rounded-lg shadow-lg text-white md:font-semibold font-normal md:text-lg text-[12px] hover:scale-105 transition-transform">
                       {slide.buttonText}
                     </button>
                   </a>
