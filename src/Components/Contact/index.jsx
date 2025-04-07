@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const sendMessage = (event) => {
@@ -46,29 +47,26 @@ const Contact = () => {
         toast.error("Xatolik yuz berdi. Iltimos, keyinroq qayta urinib ko‘ring.");
       });
   };
+  const { t } = useTranslation();
 
   return (
     <div id="contact" className="bg-amber-50 py-10 mt-10">
       <div className="container max-w-[1260px] mx-auto px-4 ">
         <h2 className="text-black md:font-extrabold font-bold md:text-5xl text-3xl text-center">
-          Contact Us
+          {t("contact.title")}
         </h2>
         <div className="flex items-center justify-center mt-20">
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* RIGHT SIDE - Contact Info */}
             <div className="order-1 md:order-2 flex flex-col justify-center">
               <p className="mb-4">
-                <span className="font-bold text-2xl">Email:</span>{" "}
+                <span className="font-bold text-2xl">{t("contact.emailTitle")}:</span>{" "}
                 info@luxlineuae.com
               </p>
               <p className="mb-4">
-                <span className="font-bold text-2xl">Phone:</span> +971 52 133
-                0070
-              </p>
+                <span className="font-bold text-2xl">{t("contact.PhoneTitle")}:</span> +971 52 1330070</p>
               <p>
-                <span className="font-bold text-2xl">Address:</span> 11 Shaikh
-                Mohammed Bin Zayed street – Al Sajaa – Sharjah
-              </p>
+                <span className="font-bold text-2xl">{t("contact.adressTitle")}:</span>{t("contact.adressDesc")}</p>
             </div>
 
             {/* LEFT SIDE - Form */}
@@ -81,7 +79,7 @@ const Contact = () => {
                 <input
                   id="name"
                   type="text"
-                  placeholder="Name*"
+                  placeholder={t("contact.name")}
                   pattern="^[A-Za-z\s]+$"
                   title="Ism faqat harflardan iborat bo‘lishi kerak"
                   className="border border-red-200 rounded-lg px-4 py-3 focus:outline-none"
@@ -91,7 +89,7 @@ const Contact = () => {
                 <input
                   id="number"
                   type="tel"
-                  placeholder="Phone Number*"
+                  placeholder={t("contact.tel")}
                   pattern="^\+998\d{9}$"
                   title="Telefon raqam +998 bilan boshlanib, jami 9 ta raqamdan iborat bo‘lishi kerak"
                   className="border border-red-200 rounded-lg px-4 py-3 focus:outline-none"
@@ -111,28 +109,28 @@ const Contact = () => {
               <input
                 id="email"
                 type="email"
-                placeholder="Email*"
+                placeholder={t("contact.emailInput")}
                 className="w-full border border-red-200 rounded-lg px-4 py-3 focus:outline-none"
                 required
               />
               <input
                 id="subject"
                 type="text"
-                placeholder="Your subject"
+                placeholder={t("contact.subject")}
                 className="w-full border border-red-200 rounded-lg px-4 py-3 focus:outline-none"
               />
               <textarea
                 id="message"
-                placeholder="Message"
+                placeholder={t("contact.message")}
                 rows="6"
-                className="w-full border border-red-200 rounded-lg px-4 py-3 focus:outline-none"
+                className="w-full border border-red-200 rounded-lg px-4 py-3 focus:outline-none resize-none"
                 required
               ></textarea>
               <button
                 type="submit"
                 className="bg-[#fff5ef] text-black font-bold py-3 px-10 rounded-lg border border-black hover:bg-black hover:text-white transition-all"
               >
-                SEND
+                {t("contact.button")}
               </button>
             </form>
           </div>

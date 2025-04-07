@@ -1,12 +1,14 @@
 import { Mail, Phone } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+   const { t } = useTranslation();
   return (
     <footer className="bg-neutral-900 text-white py-8">
       <div className="container max-w-[1260px] mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         {/* Contact Section */}
         <div className="mb-6 md:mb-0 md:text-left text-center">
-          <h3 className="text-lg font-semibold">CONTACT US</h3>
+          <h3 className="text-lg font-semibold">{t("footer.logo")}</h3>
           <a href="tel:+998901234567">
             <p className="flex items-center gap-2 mt-2">
               <Phone className="w-5 h-5" /> +971 52 133 0070
@@ -24,23 +26,19 @@ export default function Footer() {
 
         {/* About Section */}
         <div className="text-center md:text-left max-w-md">
-          <p>
-            At Luxury Line Perfumes, we create exquisite fragrances that
-            captivate your senses and leave a lasting impression. Explore our
-            collection and find your signature scent today.
-          </p>
+          <p>{t("footer.desc")}</p>
         </div>
 
         {/* Best Products Section */}
         <div className="text-center md:text-left">
-          <h3 className="text-lg font-semibold">BEST PRODUCTS</h3>
-          <p className="mt-2">Discover our most popular fragrances.</p>
+          <h3 className="text-lg font-semibold">{t("footer.desc2")}</h3>
+          <p className="mt-2">{t("footer.desc3")}</p>
         </div>
       </div>
 
       {/* Copyright */}
       <div className="text-center mt-6 border-t border-gray-700 pt-4">
-        <p>2024 All Rights Reserved.</p>
+        <p>{t("footer.bt")}</p>
       </div>
     </footer>
   );

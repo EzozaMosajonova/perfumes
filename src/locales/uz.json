@@ -1,0 +1,105 @@
+{
+    "header": {
+        "logo": "Luxury Line Parfyumlari",
+        "home": "Bosh sahifa",
+        "about": "Biz haqimizda",
+        "brand": "Brendlarimiz",
+        "contact": "Aloqa"
+    },
+    "hero": {
+        "title1": "Eksklyuziv Kollektsiyalar",
+        "title2": "O'z Parfyumini Yarat",
+        "title3": "O'z Imzo Parfyumingni Kashf Et",
+        "desc1": "Muvaffaqiyatli parfyumlarimizning eksklyuziv liniyasini his eting, mukammallik bilan yaratilgan.",
+        "desc2": "Bizning mutaxassis parfyumerlarimiz eng yaxshi tarkibiy qismlardan foydalanib, o'zgacha hidni yaratadi.",
+        "desc3": "Har bir kollektsiya nafosat va jozibani hikoya qiladi, bizning eksklyuziv to'plamlarimizni kashf eting.",
+        "button1": "Hozir Kashf Et",
+        "button2": "Biz bilan bog'laning",
+        "button3": "So'rov yuboring"
+    },
+    "about": {
+        "title": "Luxury Line Parfyumlari Haqida",
+        "desc": "Luxury Line Parfyumlarida biz parfyuymni nafaqat hid, balki tajriba deb hisoblaymiz. Biz eng yaxshi tarkibiy qismlardan yaratilgan, qo'lda ishlab chiqarilgan parfyumlar to'plamini taklif etamiz. Har bir shishaning sifat, nafislik va murakkablikka bo'lgan sadoqatimizning guvohidir. Agar o'zingiz uchun imzo parfyumi, maxsus aralashma yoki yaqinlaringizga sovg'a qidirsangiz, bizning mutaxassis parfyumerlarimiz sizni hissiyotlar sayohatida yo'naltirishga tayyor.",
+        "button": "Batafsil"
+    },
+    "sustainability": {
+        "title": "Barqarorlik",
+        "desc": "Bizning kompaniyamizda barqarorlik missiya va qadriyatlarimizning asosiy qismidir. Biz biznesimizning barcha sohalarida ekologik toza amaliyotlarni qo'llab-quvvatlash va rivojlantirishga bag'ishlanganmiz. Mana biz qanday farq qilamiz:",
+        "sectionTitle1": "Ekologik toza ishlab chiqarish",
+        "sectionTitle2": "Jamoa bilan aloqalar",
+        "sectionTitle3": "Innovatsiya va samaradorlik",
+        "sectionDesc1": "Biz barqaror materiallar va jarayonlardan foydalanib, ishlab chiqarishda uglerod izimizni kamaytiramiz. Bizning zavodlarimiz chiqindilarni kamaytirish va energiya samaradorligini oshirishga mo'ljallangan.",
+        "sectionDesc2": "Biz mahalliy jamoalar bilan aloqada bo'lib, atrof-muhitni saqlash loyihalarini qo'llab-quvvatlaymiz va barqaror hayot tarzi haqida xabardorlikni oshiramiz.",
+        "sectionDesc3": "Biz yanada barqarorlikka erishish uchun innovatsiyani rivojlantirishga sodiqmiz. Biz jarayonlar va texnologiyalarni yaxshilash orqali atrof-muhitga ta'sirni kamaytirishni va mahsulot sifatini oshirishni maqsad qilganmiz."
+    },
+    "process": {
+        "title": "Bizning Jarayonimiz",
+        "desc": "Luxury Line Parfyumlarida bizning parfyumlarimiz juda diqqat bilan yaratiladi va har bir shisha o'zining san'ati hisoblanadi. Mana bizning jarayonimiz:",
+        "sectionTitle1": "Tarkibiy qismlarni tanlash",
+        "sectionTitle2": "Mutaxassislar aralashmasi",
+        "sectionTitle3": "Sifat nazorati",
+        "sectionTitle4": "Qo'lda to'ldirish",
+        "sectionTitle5": "Barqaror amaliyotlar",
+        "sectionDesc1": "Biz dunyoning turli burchaklaridan eng yaxshi tarkibiy qismlarni, shu jumladan noyob gullar, ekzotik ziravorlar va qimmatbaho yog'ochlarni olishamiz.",
+        "sectionDesc2": "Bizning parfyumerlarimiz har bir tarkibni diqqat bilan aralashtirib, muvozanatli va o'zgacha hidlar yaratadilar.",
+        "sectionDesc3": "Har bir partiya mukammallik va barqarorlikni ta'minlash uchun qat'iy sifat nazorati tekshiruvlaridan o'tadi.",
+        "sectionDesc4": "Har bir shisha qo'lda to'ldiriladi va parfyumning yaxlitligini saqlash uchun ehtiyotkorlik bilan qadoqlanadi.",
+        "sectionDesc5": "Biz barqaror amaliyotlarni amalga oshirishga sodiqmiz va jarayonlarimiz ekologik toza va etik jihatdan javobgarlikni ta'minlaydi."
+    },
+    "question": {
+        "title": "TEZ-TEZ BERILADIGAN SAVOLLAR",
+        "desc": "Bizning ajoyib parfyumlarimiz haqida ko'proq bilib oling",
+        "sectionTitle1": "Bizning parfyumlarimizda qaysi tarkibiy qismlar ishlatiladi?",
+        "sectionTitle2": "Bizning parfyumlarimiz qanday hissiyotlarni uyg'otadi?",
+        "sectionTitle3": "Bizning imzo parfyumlarimizning ilhomi nima?",
+        "sectionTitle4": "O'zim uchun to'g'ri parfyumni qanday tanlashim mumkin?",
+        "sectionTitle5": "Sizning parfyumlaringiz qancha davom etadi?",
+        "sectionDesc1": "Biz tabiiy va sintetik tarkibiy qismlarning aralashmasidan foydalanamiz. Bizning parfyumlarimizda efir moylari, gul ekstraktlari va o'ziga xos sintetik birikmalar mavjud bo'lib, ular noyob va uzoq davom etadigan hidlarni yaratadi. Har bir tarkib yuqori sifatga ega bo'lib, ma'lum hissiyotlar va xotiralarni uyg'otish uchun tanlanadi.",
+        "sectionDesc2": "Har bir parfyum ma'lum hissiyotlarni uyg'otish uchun yaratiladi. Biz yuqori, o'rtacha va asosiy notalarni aralashtirib, kompleks hidlar yaratamiz, ular dam olish, baxt, nostalji va hatto ehtiros kabi his-tuyg'ularni keltirib chiqarishi mumkin. Masalan, lavanda tinchlantiruvchi xususiyatlarga ega, sitrus notalari esa ko'tarilgan va energiya beradi.",
+        "sectionDesc3": "Bizning imzo parfyumlarimiz tabiat va xotiralardan ilhom olgan. Biz bog'lar, tropik plyajlar va sokin o'rmonlardan ilhom olishamiz va parfyumlarimizni sevimli joylaringizga olib boradigan hidlar bilan yaratayapmiz. Shuningdek, biz unutilmas daqiqalarni saqlashga harakat qilamiz, har bir hidni o'ziga xos sayohatga aylantiramiz.",
+        "sectionDesc4": "To'g'ri parfyumni tanlash shaxsiy sayohatdir. Uni qanday holatlarda ishlatishingiz, xarakteringiz va uyg'otmoqchi bo'lgan hissiyotlaringizni o'ylab ko'ring. Turli hidlarni sinash sizga o'zingizga mos keladiganini topishda yordam beradi. Bizning mutaxassislarimiz sizning afzalliklaringizga asoslangan shaxsiy tavsiyalarni taqdim etishga tayyor.",
+        "sectionDesc5": "Bizning parfyumlarimiz butun kun davomida davom etishi uchun mo'ljallangan. Parfyumni davomiyligi uning konsentratsiyasiga va individning teri kimyoviy tarkibiga bog'liq. Biz turli konsentratsiyalarni taklif etamiz, Eau de Toilette'dan Parfum'ga qadar, sizning afzalliklaringizga mos keladigan. Uzoq davom etadigan hidni ta'minlash uchun puls nuqtalariga surting va teringizni namlab qo'llang."
+    },
+    "brand": {
+        "title": "Bizning Brendlarimiz",
+        "desc": "Bizning mashhur brendlarimiz bilan tanishing"
+    },
+    "work": {
+        "title": "Bizning Ishlash Jarayonimiz",
+        "desc": "Bizning parfyum ehtiyojlaringizni qondirish uchun mo'ljallangan professional xizmatlar to'plamimiz bilan tanishing",
+        "sectionTitle1": "Kontrakt ishlab chiqarish",
+        "sectionTitle2": "Kontrakt to'ldirish",
+        "sectionTitle3": "Boshqa Brendlarni Tarqatish",
+        "sectionTitle4": "Bizning Brend Parfyumlarini Ishlab Chiqarish",
+        "sectionDesc1": "Luxury Line Parfyumlarida biz mijozlarimizga o'ziga xos parfyumlarni yaratishda yordam berish uchun maxsus kontrakt ishlab chiqarish xizmatlarini taklif etamiz. Birlashgan Arab Amirliklarida joylashgan zamonaviy zavodimizda ilg'or texnologiyalar mavjud bo'lib, tajribali parfyumerlar va kimyogarlar tomonidan qo'llab-quvvatlanadi. Biz siz bilan birgalikda har bir detallarni ishlab chiqamiz, sizning barcha talablaringizga javob beradigan parfyumni yaratamiz.",
+        "sectionDesc2": "Luxury Line Parfyumlari professional kontrakt to'ldirish xizmatlarini taqdim etadi, bu esa sizning parfyumlaringizni aniq va ehtiyotkorlik bilan to'ldirishni ta'minlaydi. Bizning avtomatlashtirilgan to'ldirish liniyalarimiz turli xil shisha o'lchamlari va shakllarini qamrab oladi, kichik va katta ishlab chiqarish hajmlari uchun mos keladi.",
+        "sectionDesc3": "Biz o'zimizning lux parfyumlarimizni ishlab chiqarishdan tashqari, boshqa premium brendlarni tarqatish xizmatlarini ham taklif etamiz. Bizning keng tarqatish tarmog'imiz butun BAAni va undan tashqarini qamrab oladi, bu brendlarga keng chakana va ulgurji kanallarga kirishni ta'minlaydi.",
+        "sectionDesc4": "Luxury Line Parfyumlari nafislik, murakkablik va mukammallik bilan sinonimdir. Bizning brend parfyumlarimiz eng yaxshi tarkibiy qismlar bilan, dunyoning turli burchaklaridan olib kelingan, nozik tarzda yaratilgan. Har bir hid o'ziga xos va mukammallikni namoyish etadi."
+    },
+    "contact": {
+        "title": "Biz bilan bog'laning",
+        "name": "Ism",
+        "emailInput": "Email",
+        "tel": "Telefon Raqami",
+        "subject": "Mavzu",
+        "message": "Xabar",
+        "button": "Yuborish",
+        "emailTitle": "Email",
+        "PhoneTitle": "Telefon",
+        "adressTitle": "Manzil",
+        "emailDesc": " info@luxlineuae.com",
+        "PhoneDesc": ": +971 52 133 0070",
+        "adressDesc": " 11 Shaikh Mohammed Bin Zayed ko'chasi - Al Sajaah - Sharjah"
+    },
+    "location": {
+        "title": "Biz bilan bog'laning",
+        "desc": "Bizning ajoyib parfyumlar to'plamimiz bilan tanishing. Savolingiz bo'lsa, yordamga muhtoj bo'lsangiz yoki fikrlaringizni bo'lishmoqchi bo'lsangiz, biz har doim yordam berishga tayyormiz."
+    },
+    "footer": {
+        "logo": "Biz bilan bog'laning",
+        "desc": "Luxury Line Parfyumlarida biz ajoyib parfyumlar yaratamiz, bu sizning his-tuyg'ularingizni qamrab olib, unutilmas ta'sir qoldiradi. Bizning to'plamimizni kashf eting va o'zingizga mos imzo hidni toping.",
+        "desc2": "ENG YAXSHI MAHSULOTLAR",
+        "desc3": "Eng mashhur parfyumlarimizni kashf eting.",
+        "bt": "2024 Barcha huquqlar himoyalangan."
+    }
+}

@@ -1,15 +1,14 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 const Location = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className='container max-w-[1260px] mx-auto px-4 mt-20'>
         <div className='mt-20'>
-          <h1 className='text-black md:font-extrabold font-bold md:text-5xl text-3xl text-center'>Get In Touch</h1>
-          <p className='text-black font-normal text-lg mt-5 text-center'>
-            Discover the essence of luxury with our exquisite fragrance collection. Whether you have a question, need assistance, or simply want to share your thoughts, we're here to help.
-            Connect with us and immerse yourself in the world of captivating scents.
-          </p>
+          <h1 className='text-black md:font-extrabold font-bold md:text-5xl text-3xl text-center'>{t("location.title")}</h1>
+          <p className='text-black font-normal text-lg mt-5 text-center'>{t("location.desc")}</p>
         </div>
       </div>
       <div className='mt-10 w-full'>

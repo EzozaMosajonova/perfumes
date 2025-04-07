@@ -4,6 +4,7 @@ import luxury from "../../assets/luxury.png";
 import artist from "../../assets/artist.png";
 import zog from "../../assets/zog.png";
 import omaff from "../../assets/omaff.png";
+import { useTranslation } from "react-i18next";
 
 const brands = [
   { name: "Sueño", img: sueno },
@@ -14,11 +15,12 @@ const brands = [
 ];
 
 const Brands = () => {
+  const { t } = useTranslation();
   return (
     <div id="brands" className="container max-w-[1260px] mx-auto px-4 mt-20">
       <div className='mt-20'>
-        <h1 className='text-black md:font-extrabold font-bold md:text-5xl text-3xl text-center'>Our Brands</h1>
-        <p className='text-black font-normal text-lg mt-5 text-center'>Meet our famous brands</p>
+        <h1 className='text-black md:font-extrabold font-bold md:text-5xl text-3xl text-center'>{t("brand.title")}</h1>
+        <p className='text-black font-normal text-lg mt-5 text-center'>{t("brand.desc")}</p>
       </div>
       <div className="flex justify-between flex-wrap items-center  w-full">
         {brands.map((brand, index) => (
