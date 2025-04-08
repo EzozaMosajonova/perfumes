@@ -17,10 +17,10 @@ const Header = () => {
 
   return (
     <header>
-      <div className="max-w-[1240px] container mx-auto py-4 relative">
+      <div id='home' className="max-w-[1240px] container mx-auto py-4 relative">
         <div className="flex items-center justify-between">
           {/* Logo (Chap tomonda) */}
-          <a href="/" className="flex items-center">
+          <a href="#" className="flex items-center">
             <h1 className="text-black text-2xl font-bold">{t("header.logo")}</h1>
           </a>
 
@@ -47,7 +47,7 @@ const Header = () => {
 
           {/* Katta ekranda menyu */}
           <div className="hidden md:flex space-x-8">
-            <a href="/" className="text-black text-lg font-bold">{t("header.home")}</a>
+            <a href="#home" className="text-black text-lg font-bold">{t("header.home")}</a>
             <a href="#about" className="text-black text-lg font-bold">{t("header.about")}</a>
             <a href="#brands" className="text-black text-lg font-bold">{t("header.brand")}</a>
             <a href="#contact" className="text-black text-lg font-bold">{t("header.contact")}</a>
@@ -81,7 +81,7 @@ const Header = () => {
           )}
 
           <div className="flex flex-col items-center space-y-4 mt-10">
-            <a href="/" onClick={() => setMenuOpen(false)} className="text-black text-lg font-bold">{t("header.home")}</a>
+            <a href="#home" onClick={() => setMenuOpen(false)} className="text-black text-lg font-bold">{t("header.home")}</a>
             <a href="#about" onClick={() => setMenuOpen(false)} className="text-black text-lg font-bold">{t("header.about")}</a>
             <a href="#brands" onClick={() => setMenuOpen(false)} className="text-black text-lg font-bold">{t("header.brand")}</a>
             <a href="#contact" onClick={() => setMenuOpen(false)} className="text-black text-lg font-bold">{t("header.contact")}</a>
